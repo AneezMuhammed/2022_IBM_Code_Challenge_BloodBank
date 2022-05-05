@@ -256,9 +256,9 @@ if (permission == LocationPermission.deniedForever) {
                                       return null;
                                     }
                                   });
-                                  if (!validated) {
+                                  if (validated) {
                                     signIn(_bloodlogemail.text, _bloodlogpass.text);
-                                    signIn('aneezmuhammed11@gmail.com', '12345678');
+                                    
                                   
                                   }
              

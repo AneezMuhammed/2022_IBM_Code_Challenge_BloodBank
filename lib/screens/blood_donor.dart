@@ -162,15 +162,7 @@ await FirebaseFirestore.instance
                 // itemCount: finallist==null?0:finallist.length,
                 itemBuilder: (BuildContext context, int index) {
                   return GestureDetector(
-                    onTap: ()  {
-                      print(finallist[index][3]);
-                      launch("tel://${finallist[index][3]}");
-                      // Navigator.push(
-                                    
-                      //             context,
-                      //             MaterialPageRoute(builder: (context) => DonorList(request_id:list1[index]['request_id'],latitude:list1[index]['latitude'],longitude:list1[index]['longitude'])),
-                      //               );
-                    },
+                   
                     child: Container(
                    
                   decoration: BoxDecoration(
@@ -191,11 +183,18 @@ Text(
                       '${finallist[index][5].round()}km away',
                       style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
                         ),
-                        Spacer(),
+                        SizedBox(width: 60,),
                         Text(
                       '${finallist[index][4]}',
                       style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold,color: Colors.black),
-                        )
+                        ),
+                          SizedBox(width:50,),
+                        Spacer(),
+                        IconButton(
+                                icon: new Icon(Icons.phone),
+                                onPressed: () async {
+                                  launch("tel://${finallist[index][3]}");
+                                })
                       ],
                     )
                   )
