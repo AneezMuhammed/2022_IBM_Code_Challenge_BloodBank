@@ -9,11 +9,11 @@ The application can be be used by any one who wants to be a part of blood donati
 ## Architecture:
 ###### Technical Architecture:
 Front-end:
-Flutter framework is used to build front end screens using dart language.
+Flutter framework is used to build front end screens using dart language.<br>
 Back-end: 
-Flutter Firebase is used for bakend.
+Flutter Firebase is used for bakend.<br>
 Database:
-Firestore database is used for creating this mobile application which is a non sql database.
+Firestore database is used for creating this mobile application which is a non sql database.<br>
 
 ## Links
 [Presentation slides](https://docs.google.com/presentation/d/1_fx9nLGatgswof1kxZw968Php5kEE83w_KzmxL0wX2k/edit#slide=id.p) <br>
