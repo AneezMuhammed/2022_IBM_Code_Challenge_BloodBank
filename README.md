@@ -20,12 +20,12 @@ Firestore database is used for creating this mobile application which is a non s
 [Demo video](https://drive.google.com/file/d/18oLzgi33XPRauSX_EoVL7wRL9-mdmQzv/view?usp=sharing)
 
 ## Contributors
-Amrutha R Prakash - Documentation
-Aneez Muhammed - Sign up,Login, Donor Page and Backend 
-Ann Margaret - User Interface(Create Requests,My Account) 
-Bibin Thomas A - User Interface(Homepage, Request Page)
-Thejus T - User Interface(Create Requests,My Account) 
-Vishnu V A - User Interface(Homepage, Request Page)
+Amrutha R Prakash - Documentation <br>
+Aneez Muhammed - Sign up,Login, Donor Page and Backend <br>
+Ann Margaret - User Interface(Create Requests,My Account) <br>
+Bibin Thomas A - User Interface(Homepage, Request Page) <br>
+Thejus T - User Interface(Create Requests,My Account) <br>
+Vishnu V A - User Interface(Homepage, Request Page)   <br>
 
 ###### Acknowledgements:
 
