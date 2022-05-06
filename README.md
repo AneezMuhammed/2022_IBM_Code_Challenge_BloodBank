@@ -11,7 +11,7 @@ The application can be be used by any one who wants to be a part of blood donati
 Front-end:
 Flutter framework is used to build front end screens using dart language.<br>
 Back-end: 
-Flutter Firebase is used for bakend.<br>
+Flutter Firebase is used for backend.<br>
 Database:
 Firestore database is used for creating this mobile application which is a non sql database.<br>
 
